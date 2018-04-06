@@ -1,6 +1,6 @@
 var EXTRA_FILES = [];
 
-var CHECKSUM = "v1";
+var CHECKSUM = "v2";
 
 var FILES = [
   'offline.html',
