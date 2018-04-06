@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Checkout สิครับ รออะไร</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Sans+Thai+UI:300,400,500,700|Material+Icons&amp;subset=thai" rel="stylesheet" />
+  <meta name="theme-color" content="#000000">
+  <meta name="msapplication-navbutton-color" content="#000000">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+  <style>
+    * {
+        font-family: 'Noto Sans Thai UI','Noto Sans' !important;
+        font-style: normal;
+        font-weight: 400;
+    }
+  </style>
+</head>
+
+<noscript>
+  ERROR: JavaScript disabled! For full functionality of this site it is necessary to enable JavaScript.
+  Here are the <a href="http://www.enable-javascript.com/" target="_blank">
+  instructions how to enable JavaScript in your web browser</a>.
+</noscript>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title">Checkout!</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quam esse illo vel architecto, magnam veniam, sequi similique distinctio consequuntur, possimus culpa mollitia sed. Reprehenderit consectetur, totam beatae error cum.</p>
+            <div class="row">
+              <br />
+              <div class="divider"></div>
+            </div>
+            <p>Junior Webmaster Camp (JWC X)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m8 s12">
+        <div class="card">
+          <div class="card-content black-text">
+              <span class="card-title">Payment</span>
+              <div class="row">
+                <div class="divider"></div>
+              </div>
+              <div class="row">
+                <div class="col s4">
+                  <input name="method" type="radio" id="credit" />
+                  <label for="credit">Credit Card</label>
+                </div>
+                <div class="col s4">
+                  <input name="method" type="radio" id="debit" />
+                  <label for="debit">Debit Card</label>
+                </div>
+                <div class="col s4">
+                  <input name="method" type="radio" id="paypal" checked="checked" />
+                  <label for="paypal">PayPal</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                    <input id="card_name" type="text" class="validate">
+                    <label for="card_name">Name on card</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="card_number" type="text" class="validate">
+                  <label for="card_number">Credit card number</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  <button class="col s12 btn waves-effect waves-light light-blue" type="submit">Continue</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col m4 s12">
+        <ul class="collection">
+          <li class="collection-item">
+            <div class="right">500$</div><h5>Item 1</h5>
+            <p>Item description...</p>
+          </li>
+          <li class="collection-item">
+              <div class="right">500$</div><h5>Item 2</h5>
+              <p>Item description...</p>
+          </li>
+          <li class="collection-item">
+              <div class="right">500$</div><h5>Item 3</h5>
+              <p>Item description...</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <center class="black-text">© 2018 Phumrapee Limpianchop | <a href="https://github.com/rayriffy/jwc-isus">GitHub</a></center>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript">
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('sw.js');
+    });
+  }
+  </script>
+</body>
+</html>
